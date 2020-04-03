@@ -124,8 +124,6 @@ function lindsay_theme_scripts() {
 
 	wp_enqueue_style( 'bootstrap-cdn', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
 
-	wp_enqueue_style( 'font-awesome-cdn', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css	' );
-
 	wp_enqueue_style( 'lindsay-styles', get_template_directory_uri() . '/assets/css/style.css' );
 
 	wp_enqueue_script( 'lindsay-theme-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
